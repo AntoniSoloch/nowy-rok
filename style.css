@@ -5,6 +5,12 @@ body, html{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: "Arimo", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    justify-self: baseline;
+    align-self: baseline;
 }
 header{
     height: 800px;
@@ -19,16 +25,10 @@ header{
     align-items: center;
 }
 header p{
-    font-family: "Arimo", serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    justify-self: baseline;
-    align-self: baseline;
 }
 header img{
-    height: 50px;
-    width: 15px;
+    height: 100px;
+    width: 30px;
     justify-self: center;
 }
 nav{
@@ -57,8 +57,24 @@ header div img{
     margin: 40px;
     display: flex;
     justify-self: baseline;
-    width: 200px;
+    width: 250px;
+    height: 50px;
 }
 header div{
     width: 100%;
+}
+h1{
+    margin-top: 100px;
+    font-size: 50px;
+    color: white;
+}
+
+
+
+section{
+    height: 350px;
+    margin: 0;
+}
+#grid article{
+
 }
