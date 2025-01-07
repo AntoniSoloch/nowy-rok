@@ -1,0 +1,64 @@
+body, html{
+    width: 1440px;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header{
+    height: 800px;
+    width: 100%;
+    background-image: url(images/desktop/image-header.jpg);
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header p{
+    font-family: "Arimo", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    justify-self: baseline;
+    align-self: baseline;
+}
+header img{
+    height: 50px;
+    width: 15px;
+    justify-self: center;
+}
+nav{
+align-self: flex-end;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+}
+nav p {
+    color: white;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    padding: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+nav p:hover{
+    color: hsl(212, 27%, 19%);
+    border-radius: 25px;
+    background-color: white;
+}
+header div img{
+    margin: 40px;
+    display: flex;
+    justify-self: baseline;
+    width: 200px;
+}
+header div{
+    width: 100%;
+}
